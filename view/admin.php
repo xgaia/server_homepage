@@ -25,12 +25,13 @@
 	  </tbody>
 	</table> 
 
-
+    <?php if ($show_shutdown) { ?>
     <h4>Shut down server</h4>
 	<form method="post" action="index.php?page=admin">
 		<p><button name='shutdown-button' class="btn btn-sm btn-primary" type="submit">Shutdown</button></p>
 	</form>
 	<p><font color="red"><?=$message?></font><p>
+    <?php } ?>
     </div>
   </div>
 </div>

@@ -5,6 +5,11 @@
 ; if not specified, hostname of server used
     ;nameServer = "Name"
 
+[options]
+    shutdown_button=true
+    favicon="server" ;you can choose between "server" or "pi"
+                    ;it will change the website favicon
+
 [disk to analyse]
     disk[]="/"
     disk[]="/home"
