@@ -1,0 +1,28 @@
+;<?php
+;die();
+;/*
+[name of your server]
+; if not specified, hostname of server used
+    ;nameServer = "Name"
+
+[disk to analyse]
+    disk[]="/"
+    disk[]="/home"
+
+[tools]
+;if you dont have images, put "icon.png" in the field icon
+    name[tool_1]="Name of tool"
+    icon[tool_1]="icon.png"
+    url[tool_1]="/path"
+    admin[tool_1]=0
+
+
+[sql]
+    sql_host="localhost"
+    sql_user="sql_user"
+    sql_password="sql_password"
+    sql_database="sql_database"
+    password_salt="random_string_here"
+
+;*/
+;?>
