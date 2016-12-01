@@ -14,7 +14,7 @@ Installation
 
 Clone the repository to your web directory
 
-    git clone ssh://git@hypnos.freeboxos.fr:29418/imx/server-homepage.git
+    git clone https://github.com/xgaia/server_homepage.git
 
 Create a new database in MySQL with the file `table.sql`
 
