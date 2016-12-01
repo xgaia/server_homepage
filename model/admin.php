@@ -101,7 +101,4 @@ foreach ($arrayResult as $key => $value) {
 if (isset($_POST['shutdown-button'])) {
         shell_exec('sudo shutdown +3');
         $message = 'server will be halted in 3 minutes ! Use shutdown -c to cancel';
-        $destination = 'Hypnos';
-        $tg = "(echo 'dialog_list';sleep 5;echo 'msg Hypnos Hypnos will be halted in 3 minutes! use shutdown -c to cancel'; echo 'safe_quit') | /tg/bin/telegram-cli";
-        $log = shell_exec($tg);
 }
