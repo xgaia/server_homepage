@@ -13,6 +13,9 @@ $sql_user=$arrayIni['sql_user'];
 $sql_password=$arrayIni['sql_password'];
 $sql_database=$arrayIni['sql_database'];
 
+$show_shutdown=$arrayIni['shutdown_button'];
+$favicon=$arrayIni['favicon'];
+
 //database connexion
 try{
   $db = new PDO('mysql:host='.$sql_host.';dbname='.$sql_database.';charset=utf8', ''.$sql_user.'', ''.$sql_password.'',
@@ -34,7 +37,7 @@ if (isset($arrayIni['nameServer'])) {
 <head>
 <meta charset="utf-8" />
 <title><?=$nameServer?></title>
-<link rel="icon" type="image/png" href="static/favicon.png"/>
++<link rel="icon" type="image/png" href="static/favicons/<?=$favicon?>.png"/>
 
 <!--css boostrap-->
 <link rel="stylesheet" href="static/bootstrap-3.3.6-dist/css/bootstrap.css" media="screen">
